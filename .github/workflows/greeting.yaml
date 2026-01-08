@@ -2,8 +2,6 @@ name: Greeting Workflow
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   greet:
