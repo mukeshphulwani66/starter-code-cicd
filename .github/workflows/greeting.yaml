@@ -1,0 +1,9 @@
+name: Greeting Workflow
+
+on: push
+jobs:
+  greet:
+    runs-on: windows-latest
+    steps:
+      - name: Display Greeting
+        run: echo "Hello, Windows World!"
