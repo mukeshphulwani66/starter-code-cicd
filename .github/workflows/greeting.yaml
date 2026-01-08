@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: Greet the World
         run: echo "Hello, World!"
+      - name: Greet the User
+        run: echo "Hello, ${{ github.actor }}!"
