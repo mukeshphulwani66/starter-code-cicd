@@ -6,4 +6,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Display Greeting
-        run: echo "Hello, Windows World!"
+        run: "Hello, Windows World!"
