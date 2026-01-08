@@ -1,10 +1,13 @@
 name: Greeting Workflow
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   greet:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: Display Greeting
-        run: echo "Hello, Windows World!"
+      - name: Greet the World
+        run: echo "Hello, World!"
