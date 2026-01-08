@@ -1,0 +1,10 @@
+name: Greeting Workflow
+
+on: [push, workflow_dispatch]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet the World
+        run: echo "Hello, World!"
