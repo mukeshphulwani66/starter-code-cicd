@@ -1,16 +1,10 @@
 name: Greeting Workflow
 
-on:
-  push:
-    branches:
-      - main
-      
-      
+on: push
+
 jobs:
   greet:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - name: Greet the World
-        run: echo "Hello, World!"
-      - name: Greet the User
-        run: echo "Hello, ${{ github.actor }}!"
+      - name: Display Greeting
+        run: echo "Hello, Windows World!"
