@@ -2,6 +2,8 @@ name: Greeting Workflow
 
 on:
   push:
+    paths:
+      - '.github/workflows/Deploymedist.yaml'
 
 jobs:
   greet:
