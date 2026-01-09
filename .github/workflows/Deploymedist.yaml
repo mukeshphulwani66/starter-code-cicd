@@ -12,7 +12,6 @@ on:
     paths-ignore:
         - 'docs/**'
         - '*.md'
-        - '.github/workflows/greeting.yaml'
 
 
   workflow_dispatch:
