@@ -2,9 +2,8 @@ name: Greeting Workflow
 
 on:
   push:
-    paths:
-      - '.github/workflows/Deploymedist.yaml'
-
+    branches:
+      - main
 jobs:
   greet:
     runs-on: ubuntu-latest
