@@ -1,4 +1,4 @@
-name: Greeting Workflow
+name: Deploy Dist Application
 
 # on: [push, workflow_dispatch]
 
